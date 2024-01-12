@@ -2,6 +2,9 @@
 
 ## Detalles del proyecto en grupo
 
-Integrantes:
--Laura
--Nicolas
+###Integrantes:
+
+-Laura Garzón
+-Nicolas Guzmán
+
+Creado por: Laura Garzón, Nicolas Guzmán

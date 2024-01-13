@@ -7,6 +7,6 @@
 -Laura Garzón
 -Nicolas Guzmán
 
-Linea escrita por Nico
-
 Creado por: Laura Garzón, Nicolas Guzmán
+
+esta linea es por Laura Garzon 

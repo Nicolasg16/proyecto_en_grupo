@@ -16,14 +16,16 @@
     1. Nombres de integrantes
     2. cantidad de grupos a formar
   -->
-  <form id="generadorGrupos">
-    <label for="nombresInput">Ingrese el nombre de los integrantes y genero M/F</label>
-    <input type="text" id="nombresInput" placeholder="Ejemplo: Laura F">
-    
-    <label for="integrantesInput">Ingrese la cantidad de integrantes por grupo</label>
-    <input type="number" id="integrantesInput">
 
-    <input type="submit" value="Generar grupos">
+  <form>
+    <fieldset>
+      <legend>Generador de grupos</legend>
+      <label for="nombreIntegrantes">Nombre de los integrantes separados por coma:</label>
+            <input type="text" name="nombreIntegrantes" id="nombreIntegrantes" />
+      <label for="numeroIntegrantes">Número de grupos:</label>
+            <input type="number" name="numeroIntegrantes" id="numeroIntegrantes" />
+    </fieldset>
+    <input type="submit" value="Generar grupos"/>
   </form>
 
   <section id="resultado">resultadots</section>

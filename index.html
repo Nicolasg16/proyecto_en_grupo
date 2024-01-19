@@ -1,40 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Pagina grupo</title>
-</head>
-<body>
-  <header>
-    <h1></h1>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Genrador de grupos</title>
+  </head>
+  <body>
+    <header>
+      <h1></h1>
+    </header>
+    <main>
+      <form id="grupoForm">
+        <fieldset>
+          <legend>Generador de grupos</legend>
+          <label for="nombreIntegrantes"
+            >Nombre de los integrantes separados por coma:</label
+          >
+          <input
+            type="text"
+            name="nombreIntegrantes"
+            id="nombreIntegrantes"
+            required
+          />
+          <label for="numeroIntegrantes">Número de grupos:</label>
+          <input
+            type="number"
+            name="numeroIntegrantes"
+            id="numeroIntegrantes"
+            min="1"
+            placeholder="cantidad miníma dos"
+            required
+          />
+        </fieldset>
+        <input type="submit" value="Generar grupos" />
+      </form>
 
-  </header>
-  <main>
-    <!--Crear dos formularios
-    1. Nombres de integrantes
-    2. cantidad de grupos a formar
-  -->
+      <ul id="resultado">resultados</ul>
+    </main>
 
-  <form>
-    <fieldset>
-      <legend>Generador de grupos</legend>
-      <label for="nombreIntegrantes">Nombre de los integrantes separados por coma:</label>
-            <input type="text" name="nombreIntegrantes" id="nombreIntegrantes" />
-      <label for="numeroIntegrantes">Número de grupos:</label>
-            <input type="number" name="numeroIntegrantes" id="numeroIntegrantes" />
-    </fieldset>
-    <input type="submit" value="Generar grupos"/>
-  </form>
-
-  <section id="resultado">resultadots</section>
-
-  </main>
-
-  <footer>
-
-  </footer>
-  <script src="js/main.js"></script>
-</body>
+    <footer></footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
+

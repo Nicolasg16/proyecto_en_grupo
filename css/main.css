@@ -1,6 +1,15 @@
-.nombreIntegrantes{
-         
-    weight: 100px;                    
-    height: 100px;
+body{
+    padding: 2rem; 
+}
 
+h1{
+    text-align: center;
+}
+
+.buttom{
+    padding: auto;
+    justify-content: center;
+}
+label{
+   padding: 1rem;
 }

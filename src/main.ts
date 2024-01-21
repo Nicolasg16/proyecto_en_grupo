@@ -79,16 +79,39 @@ function creearGrupos(nombreIntegrantes: string[], numeroIntegrantes: number): s
 }
 
 function mostrarGrupos(grupos: string[][], container: HTMLElement | null) {
-    if (!container) return;
+  if (!container) return;
 
-    container.innerHTML = '';
+  container.innerHTML = '';
 
-    grupos.forEach((grupo, index) => {
-        const listItem = document.createElement('li');
-        listItem.textContent = `Grupo ${index + 1}: ${grupo.join(', ')}`;
-        container.appendChild(listItem);
-    });
+  const table = document.createElement('table');
+  const thead = document.createElement('thead');
+  const tbody = document.createElement('tbody');
+
+  const headersRow = document.createElement('tr');
+  const groupHeader = document.createElement('th');
+  groupHeader.textContent = 'Grupo';
+  headersRow.appendChild(groupHeader);
+  const membersHeader = document.createElement('th');
+  membersHeader.textContent = 'Miembros';
+  headersRow.appendChild(membersHeader);
+  thead.appendChild(headersRow);
+
+  grupos.forEach((grupo, index) => {
+    const row = document.createElement('tr');
+    const groupCell = document.createElement('td');
+    groupCell.textContent = `Grupo ${index + 1}`;
+    row.appendChild(groupCell);
+    const membersCell = document.createElement('td');
+    membersCell.textContent = grupo.join(', ');
+    row.appendChild(membersCell);
+    tbody.appendChild(row);
+  });
+
+  table.appendChild(thead);
+  table.appendChild(tbody);
+  container.appendChild(table);
 }
+
 
 
 

@@ -1,4 +1,119 @@
-.nombreIntegrantes{     
-                       
-    height: 100px;
-}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #e0b307;
+  }
+
+
+
+  #resultado {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  #resultado li {
+    margin-bottom: 1rem;
+  }
+  
+  #resultado table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #resultado th,
+  #resultado td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  #resultado th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  #resultado tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #resultado input[type="text"],
+  #resultado input[type="number"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  #resultado label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #resultado fieldset {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #resultado legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  #resultado .btn {
+    display: block;
+    margin: 0 auto;
+  }

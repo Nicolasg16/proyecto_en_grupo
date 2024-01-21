@@ -1,10 +1,7 @@
-body{
-    padding: 2rem; 
-}
-
-h1{
-    text-align: center;
-}
+.nombreIntegrantes{
+         
+    weight: 100px;                    
+    height: 100px;
 
 .buttom{
     padding: auto;
@@ -13,3 +10,151 @@ h1{
 label{
    padding: 1rem;
 }
+  
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #FB8500;
+}
+
+header{
+    background-color: #219EBC;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 100px;
+}
+
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-color: #8ecae6;
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #FB8500;
+    font-size: 20px;
+
+  }
+
+
+  #resultado {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  #resultado li {
+    margin-bottom: 1rem;
+  }
+  
+  #resultado table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #resultado th,
+  #resultado td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  #resultado th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  #resultado tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #resultado input[type="text"],
+  #resultado input[type="number"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  #resultado label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #resultado fieldset {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #resultado legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  #resultado .btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  table,tr{
+    background-color: #219EBC;
+  }
+
+  #nombreIntegrantes{
+   border-color: #8ECAE6 ;
+  }
+  
+ footer{
+    background-color: #219EBC;
+    text-align: center;
+    padding: 2rem;
+    font-size: 25px;
+ }
+
+ 
+

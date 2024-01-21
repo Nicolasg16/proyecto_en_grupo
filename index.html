@@ -15,9 +15,11 @@
     <main>
       <form id="grupoForm">
         <fieldset>  
-          <legend>Generador de grupos</legend>
+          <legend> 
+            <h2>Generador de grupos</h2>
+          </legend>
           <label for="nombreIntegrantes">Nombre de los integrantes separados por coma:</label>
-          <input class="nombreIntegrantes"
+          <textarea class="form-control form-control-sm"  rows="5"
             type="text"
             name="nombreIntegrantes"
             id="nombreIntegrantes"
@@ -31,7 +33,7 @@
             placeholder="cantidad miníma dos"
             required/>
         </fieldset>
-        <input type="submit" value="Generar grupos" class="btn btn-outline-warning"/>
+        <input type="submit" value="Generar grupos" class="btn btn-outline-warning "/>
       </form>
 
       <ul id="resultado"></ul>

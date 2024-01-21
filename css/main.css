@@ -1,14 +1,15 @@
-.nombreIntegrantes{
-         
-    weight: 100px;                    
-    height: 100px;
-}
-.buttom{
-    padding: auto;
-    justify-content: center;
-}
-label{
-   padding: 1rem;
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px; 
+  }
+.body{
+    background-color: rgb(246, 227, 51);
+    font-family:"Philosopher", sans-serif;
+
 }
   
 h2 {
